@@ -1,29 +1,5 @@
-# solar
+# Solar system with three js
 
-This template should help get you started developing with Vue 3 in Vite.
+Based on [this tutorial](https://github.com/SuboptimalEng/three-js-games/tree/main/01-solar-system), textures from [here](https://www.solarsystemscope.com/textures/). 
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+The live positions of planets are calculated here [here](https://github.com/Visgean/planet_positions). 
