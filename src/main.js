@@ -1,5 +1,4 @@
 import * as THREE from "three";
-import {func} from "three/addons/nodes/code/FunctionNode.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 const scene = new THREE.Scene();
@@ -53,7 +52,7 @@ scene.add(solarSystem);
 
 
 async function loadLocations() {
-    const response = await fetch('http://127.0.0.1:5000/');
+    const response = await fetch('https://visgean.me/planets/');
     const locations = await response.json();
 
     for (const planet in planets) {
